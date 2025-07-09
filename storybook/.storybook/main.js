@@ -16,11 +16,7 @@ const config = {
     autodocs: 'tag',
   },
   viteFinal: async (config) => {
-    // Add alias for the main project components using submodule
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      'mui-vite-demo': '/main-project/src'
-    };
+    // Remove any alias or reference to 'main-project' or 'mui-vite-demo' as all components are now local.
     return config;
   },
 };

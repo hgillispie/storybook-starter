@@ -2,7 +2,7 @@ import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 
 // Import the SideMenu component from the main project submodule
-import SideMenu from '../../main-project/src/dashboard/components/SideMenu';
+import SideMenu from '../src/components/SideMenu';
 
 const meta: Meta<typeof SideMenu> = {
   title: 'Dashboard/SideMenu',

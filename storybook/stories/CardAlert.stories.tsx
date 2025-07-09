@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { Box, Stack } from '@mui/material';
-import CardAlert from '../../main-project/src/dashboard/components/CardAlert';
+import CardAlert from '../src/components/CardAlert';
 
 const meta: Meta<typeof CardAlert> = {
   title: 'Dashboard/CardAlert',

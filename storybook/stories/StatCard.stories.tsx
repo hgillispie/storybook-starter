@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { Box, Stack, Grid } from '@mui/material';
-import StatCard from '../../../main-project/src/dashboard/components/StatCard';
+import StatCard from '../src/components/StatCard';
 
 const meta: Meta<typeof StatCard> = {
   title: 'Dashboard/StatCard',

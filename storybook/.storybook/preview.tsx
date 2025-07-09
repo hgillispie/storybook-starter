@@ -2,7 +2,7 @@ import React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { createTheme } from '@mui/material/styles';
-import AppTheme from '../../main-project/src/shared-theme/AppTheme';
+import AppTheme from '../src/shared-theme/AppTheme';
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {

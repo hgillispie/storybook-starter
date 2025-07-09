@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { Box, Stack } from '@mui/material';
-import PageViewsBarChart from '../../../main-project/src/dashboard/components/PageViewsBarChart';
+import PageViewsBarChart from '../src/components/PageViewsBarChart';
 
 const meta: Meta<typeof PageViewsBarChart> = {
   title: 'Dashboard/PageViewsBarChart',

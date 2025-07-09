@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { Box, Stack, Grid } from '@mui/material';
-import HighlightedCard from '../../../main-project/src/dashboard/components/HighlightedCard';
+import HighlightedCard from '../src/components/HighlightedCard';
 
 const meta: Meta<typeof HighlightedCard> = {
   title: 'Dashboard/HighlightedCard',

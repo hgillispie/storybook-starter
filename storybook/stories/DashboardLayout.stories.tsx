@@ -1,10 +1,10 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { Box, Stack, Paper, Typography } from '@mui/material';
-import StatCard from '../../../main-project/src/dashboard/components/StatCard';
-import HighlightedCard from '../../../main-project/src/dashboard/components/HighlightedCard';
-import PageViewsBarChart from '../../../main-project/src/dashboard/components/PageViewsBarChart';
-import CardAlert from '../../../main-project/src/dashboard/components/CardAlert';
+import StatCard from '../src/components/StatCard';
+import HighlightedCard from '../src/components/HighlightedCard';
+import PageViewsBarChart from '../src/components/PageViewsBarChart';
+import CardAlert from '../src/components/CardAlert';
 
 const meta: Meta = {
   title: 'Dashboard/DashboardLayout',

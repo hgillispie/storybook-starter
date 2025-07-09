@@ -2,7 +2,7 @@ import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 
 // Import the Search component from the main project submodule
-import Search from '../../main-project/src/dashboard/components/Search';
+import Search from '../src/components/Search';
 
 const meta: Meta<typeof Search> = {
   title: 'Dashboard/Search',
