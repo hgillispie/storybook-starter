@@ -1,0 +1,27 @@
+{
+  "name": "mui-vite-storybook",
+  "version": "1.0.0",
+  "description": "Standalone Storybook for mui-vite-demo components",
+  "private": true,
+  "workspaces": [
+    "storybook"
+  ],
+  "scripts": {
+    "storybook": "npm run storybook --workspace=storybook",
+    "build-storybook": "npm run build-storybook --workspace=storybook",
+    "dev": "npm run storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.0",
+    "@storybook/addon-interactions": "^7.6.0",
+    "@storybook/addon-links": "^7.6.0",
+    "@storybook/blocks": "^7.6.0",
+    "@storybook/react": "^7.6.0",
+    "@storybook/react-vite": "^7.6.0",
+    "@storybook/testing-library": "^0.2.2",
+    "storybook": "^7.6.0"
+  },
+  "dependencies": {
+    "material-ui-vite-ts": "github:buildernick/mui-vite-demo"
+  }
+}
