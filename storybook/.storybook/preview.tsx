@@ -3,6 +3,10 @@ import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { createTheme } from '@mui/material/styles';
 import AppTheme from '../src/shared-theme/AppTheme';
+import ResizeObserverErrorBoundary from '../src/components/ResizeObserverErrorBoundary';
+
+// Apply ResizeObserver fix for containerized environments
+import '../src/utils/resizeObserverFix';
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
@@ -59,18 +63,20 @@ const preview = {
       });
 
       return (
-        <AppTheme>
-          <ThemeProvider theme={theme}>
-            <CssBaseline enableColorScheme />
-            <div style={{ 
-              backgroundColor: themeMode === 'dark' ? '#121212' : '#fafafa',
-              minHeight: '100vh',
-              padding: '20px'
-            }}>
-              <Story />
-            </div>
-          </ThemeProvider>
-        </AppTheme>
+        <ResizeObserverErrorBoundary>
+          <AppTheme>
+            <ThemeProvider theme={theme}>
+              <CssBaseline enableColorScheme />
+              <div style={{ 
+                backgroundColor: themeMode === 'dark' ? '#121212' : '#fafafa',
+                minHeight: '100vh',
+                padding: '20px'
+              }}>
+                <Story />
+              </div>
+            </ThemeProvider>
+          </AppTheme>
+        </ResizeObserverErrorBoundary>
       );
     },
   ],

@@ -8,6 +8,7 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import { SparkLineChart } from "@mui/x-charts/SparkLineChart";
 import { areaElementClasses } from "@mui/x-charts/LineChart";
+import ChartWrapper from "./ChartWrapper";
 
 export type StatCardProps = {
   title: string;
@@ -17,13 +18,13 @@ export type StatCardProps = {
   data: number[];
 };
 
-function getDaysInMonth(month: number, year: number) {
+function getDaysInMonth(month: number, year: number): string[] {
   const date = new Date(year, month, 0);
   const monthName = date.toLocaleDateString("en-US", {
     month: "short",
   });
   const daysInMonth = date.getDate();
-  const days = [];
+  const days: string[] = [];
   let i = 1;
   while (days.length < daysInMonth) {
     days.push(`${monthName} ${i}`);
@@ -102,7 +103,7 @@ export default function StatCard({
               {interval}
             </Typography>
           </Stack>
-          <Box sx={{ width: "100%", height: 50 }}>
+          <ChartWrapper height={50}>
             <SparkLineChart
               color={chartColor}
               data={data}
@@ -121,7 +122,7 @@ export default function StatCard({
             >
               <AreaGradient color={chartColor} id={`area-gradient-${value}`} />
             </SparkLineChart>
-          </Box>
+          </ChartWrapper>
         </Stack>
       </CardContent>
     </Card>
