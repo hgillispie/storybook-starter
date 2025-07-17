@@ -1,4 +1,4 @@
-import React, { Component, ErrorInfo, ReactNode } from 'react';
+import React, { Component, ErrorInfo, ReactNode } from "react";
 
 interface Props {
   children: ReactNode;
@@ -10,56 +10,74 @@ interface State {
   error?: Error;
 }
 
-export default class ResizeObserverErrorBoundary extends Component<Props, State> {
+export default class ResizeObserverErrorBoundary extends Component<
+  Props,
+  State
+> {
   constructor(props: Props) {
     super(props);
     this.state = { hasError: false };
   }
 
-  static getDerivedStateFromError(error: Error): State {
-    // Only catch ResizeObserver errors
-    if (error.message.includes('ResizeObserver')) {
-      return { hasError: true, error };
+  static getDerivedStateFromError(error: Error): State | null {
+    // Check if it's a ResizeObserver-related error
+    const isResizeObserverError =
+      error.message.includes("ResizeObserver") ||
+      error.message.includes("Non-Error exception captured") ||
+      error.stack?.includes("ResizeObserver");
+
+    if (isResizeObserverError) {
+      // Don't update state, just suppress the error
+      console.debug(
+        "ResizeObserver error caught and suppressed by boundary:",
+        error.message
+      );
+      return null;
     }
-    // Re-throw other errors
-    throw error;
+
+    // For non-ResizeObserver errors, update state to show error UI
+    return { hasError: true, error };
   }
 
   componentDidCatch(error: Error, errorInfo: ErrorInfo) {
-    // Only log ResizeObserver errors, suppress them
-    if (error.message.includes('ResizeObserver')) {
-      console.warn('ResizeObserver error caught and suppressed:', error.message);
+    const isResizeObserverError =
+      error.message.includes("ResizeObserver") ||
+      error.message.includes("Non-Error exception captured") ||
+      error.stack?.includes("ResizeObserver");
+
+    if (isResizeObserverError) {
+      // Just log for debugging and suppress
+      console.debug("ResizeObserver error suppressed by boundary:", {
+        message: error.message,
+        stack: error.stack,
+        componentStack: errorInfo.componentStack,
+      });
       return;
     }
-    
+
     // Log other errors normally
-    console.error('Error caught by boundary:', error, errorInfo);
-  }
-
-  componentDidMount() {
-    // Add global error handler for ResizeObserver
-    const originalError = console.error;
-    console.error = (...args: any[]) => {
-      const message = args[0];
-      if (typeof message === 'string' && message.includes('ResizeObserver')) {
-        // Suppress ResizeObserver errors
-        return;
-      }
-      originalError.apply(console, args);
-    };
-
-    // Cleanup on unmount
-    return () => {
-      console.error = originalError;
-    };
+    console.error("Error caught by boundary:", error, errorInfo);
   }
 
   render() {
     if (this.state.hasError) {
-      // Return fallback or null for ResizeObserver errors
-      return this.props.fallback || null;
+      // Only show fallback for non-ResizeObserver errors
+      return (
+        this.props.fallback || (
+          <div
+            style={{
+              padding: "20px",
+              textAlign: "center",
+              color: "#666",
+              fontFamily: "system-ui, sans-serif",
+            }}
+          >
+            Something went wrong. Please refresh the page.
+          </div>
+        )
+      );
     }
 
     return this.props.children;
   }
-} 
+}
