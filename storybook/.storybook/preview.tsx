@@ -8,6 +8,10 @@ import ResizeObserverErrorBoundary from '../src/components/ResizeObserverErrorBo
 // Apply ResizeObserver fix for containerized environments
 import '../src/utils/resizeObserverFix';
 
+const isEmbedded = () => {
+  try { return typeof window !== 'undefined' && window.top !== window.self; } catch { return true; }
+};
+
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
