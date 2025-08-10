@@ -28,6 +28,23 @@ const config = {
         host: process.env.HMR_HOST || undefined,
         protocol: process.env.HMR_PROTOCOL || undefined,
       },
+      headers: {
+        // Allow Fusion/Builder ancestors to frame Storybook
+        'Content-Security-Policy': [
+          "frame-ancestors 'self'",
+          'https://builder.io',
+          'https://*.builder.io',
+          'https://builder.my',
+          'https://*.builder.my',
+          'https://*.projects.builder.codes',
+          'https://*.builder.codes',
+          'http://localhost:*',
+        ].join(' ') + ';',
+        // Ensure legacy header does not block framing
+        'X-Frame-Options': 'ALLOWALL',
+        // Quiet permissions warnings in sandboxed docs
+        'Permissions-Policy': 'fullscreen=*, clipboard-write=*',
+      },
     };
 
     // Workaround for iframe/proxy environments where websocket origin differs
