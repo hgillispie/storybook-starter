@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Storybook configuration for mui-vite-demo components",
   "scripts": {
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev -p ${PORT:-6006} --host 0.0.0.0",
     "build-storybook": "storybook build"
   },
   "dependencies": {
