@@ -1,0 +1,362 @@
+{
+  "id": "f2f3655202764523914b8dbf61505ee8_0ba7fd8e4c74453281352d4fafa1415e",
+  "name": "Test",
+  "data": {
+    "url": "/test",
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-4f58f43a31b24b2387e43d220b463e15",
+        "meta": {
+          "previousId": "builder-ba529a2729d747c78916d13c89bebc22"
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "tagName": "div",
+            "id": "builder-c9a7c0261bc84847a7f2fe8eeb8dc1f7",
+            "meta": {
+              "naturalWidth": 1490,
+              "previousId": "builder-e64b218cc4ae42e9a3b2dfa4f636c200"
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "div",
+                "id": "builder-35c1359293b24c8b8b6dcbed8a41801f",
+                "meta": {
+                  "previousId": "builder-41c0c9546d694d9badc6026e1f3ff59f"
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "tagName": "span",
+                    "id": "builder-753010346a0b4ce886755b8985362acb",
+                    "meta": {
+                      "previousId": "builder-754838e8b7cb4a19a65fdaea35b6d894"
+                    },
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "Intuitive design, "
+                      },
+                      "isRSC": null
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "tagName": "br",
+                    "id": "builder-982761e5cf5243a7b14a94f3105d0932",
+                    "meta": {
+                      "previousId": "builder-3ce6f4232a764520bc168165048aba99"
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "inline",
+                        "fontFamily": "\"Archivo Medium\", sans-serif",
+                        "fontSize": "54px",
+                        "lineHeight": "60px",
+                        "textAlign": "center"
+                      },
+                      "medium": {
+                        "fontSize": "40px",
+                        "lineHeight": "40px",
+                        "textAlign": "start"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "tagName": "span",
+                    "id": "builder-26f0e6b518d3439ca5f7a0356b93570d",
+                    "meta": {
+                      "previousId": "builder-ab63f01c4922432489e8d9e5fb7f4123"
+                    },
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "outcome-driven solutions"
+                      },
+                      "isRSC": null
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "large": {
+                    "fontFamily": "\"Archivo Medium\", sans-serif",
+                    "fontSize": "54px",
+                    "lineHeight": "60px",
+                    "textAlign": "center"
+                  },
+                  "medium": {
+                    "fontSize": "40px",
+                    "lineHeight": "40px",
+                    "textAlign": "start"
+                  }
+                }
+              },
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "p",
+                "id": "builder-0b294e8a18714743ace0971fb8159771",
+                "meta": {
+                  "previousId": "builder-b690e14262284a3c981c6945ec3b8003"
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "tagName": "span",
+                    "id": "builder-a9f388ea8e4c400ebcfd60d36da4d691",
+                    "meta": {
+                      "previousId": "builder-ab0108cc9bd54589a4b34e74b1f671c5"
+                    },
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "Empowering borrowers with smart, intuitive tools to help lower monthly\n          payments and take control of their student loans."
+                      },
+                      "isRSC": null
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "large": {
+                    "fontFamily": "\"Simula Regular\", sans-serif",
+                    "fontSize": "20px",
+                    "lineHeight": "27px",
+                    "marginBottom": "15px",
+                    "marginLeft": "auto",
+                    "marginRight": "auto",
+                    "marginTop": "15px",
+                    "textAlign": "center",
+                    "width": "60%"
+                  },
+                  "medium": {
+                    "marginBottom": "20px",
+                    "marginTop": "20px",
+                    "marginLeft": "0px",
+                    "marginRight": "0px",
+                    "textAlign": "start",
+                    "width": "auto"
+                  }
+                }
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "paddingBottom": "102px",
+                "paddingLeft": "90px",
+                "paddingRight": "90px",
+                "paddingTop": "80px",
+                "textAlign": "center"
+              },
+              "medium": {
+                "paddingBottom": "65px",
+                "paddingTop": "71px",
+                "textAlign": "start"
+              },
+              "small": {
+                "paddingLeft": "24px",
+                "paddingRight": "24px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "tagName": "div",
+            "id": "builder-20fdb89b0f244c238a6a163c0675d567",
+            "meta": {
+              "naturalWidth": 1490,
+              "previousId": "builder-541e4a0155bc44eba4f8e7bbd2c1e250"
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "span",
+                "id": "builder-064484bac78049d6958a4b336f21ec67",
+                "meta": {
+                  "previousId": "builder-5abf2aec614e44ba9f7dd0239c0a26f2"
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-01492d0b4a8049d2aeb96b5aa384dd88",
+                    "properties": {
+                      "alt": "Student loan aid overview"
+                    },
+                    "meta": {
+                      "originalAspectRatio": 1.9602649006622517,
+                      "previousId": "builder-bd5dba3a110f4a44bc399e1bc268fa37"
+                    },
+                    "component": {
+                      "name": "Raw:Img",
+                      "options": {
+                        "image": "https://array.com/_app/immutable/assets/personal-info.2c8b6b7b.avif"
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "inline",
+                        "overflowClipMargin": "content-box",
+                        "overflowX": "clip",
+                        "overflowY": "clip",
+                        "width": "302px"
+                      }
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "medium": {
+                    "display": "inline"
+                  }
+                }
+              },
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "span",
+                "id": "builder-3b90e0d9eec845f9a429ca2cbe43b976",
+                "meta": {
+                  "previousId": "builder-7c7eef66d33d44fc9a44017a8b8743e3"
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-966a8abfda9443aba6a939d99423921b",
+                    "properties": {
+                      "alt": "Assessment screen"
+                    },
+                    "meta": {
+                      "originalAspectRatio": 1.9602649006622517,
+                      "previousId": "builder-4a3c9c7f7b6c4997a7e590eb2dbaecf0"
+                    },
+                    "component": {
+                      "name": "Raw:Img",
+                      "options": {
+                        "image": "https://array.com/_app/immutable/assets/assessment.5527dc16.avif"
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "inline",
+                        "overflowClipMargin": "content-box",
+                        "overflowX": "clip",
+                        "overflowY": "clip",
+                        "width": "302px"
+                      }
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "medium": {
+                    "display": "inline"
+                  }
+                }
+              },
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "span",
+                "id": "builder-ab9d54041e9140349871a95f44e61a40",
+                "meta": {
+                  "previousId": "builder-97ff5ef99da94e75bf68445c7b043f03"
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-85512e405ac14617a52961ff85cc9cf9",
+                    "properties": {
+                      "alt": "Select a repayment plan"
+                    },
+                    "meta": {
+                      "originalAspectRatio": 1.9602649006622517,
+                      "previousId": "builder-cb5029cbec8540c5986bf99dc2da222a"
+                    },
+                    "component": {
+                      "name": "Raw:Img",
+                      "options": {
+                        "image": "https://array.com/_app/immutable/assets/plan.79e43eaa.avif"
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "inline",
+                        "overflowClipMargin": "content-box",
+                        "overflowX": "clip",
+                        "overflowY": "clip",
+                        "width": "302px"
+                      }
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "medium": {
+                    "display": "inline"
+                  }
+                }
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "justifyContent": "space-evenly"
+              },
+              "medium": {
+                "display": "none"
+              }
+            }
+          }
+        ],
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "backgroundColor": "#d1eeec"
+          }
+        }
+      },
+      {
+        "id": "builder-pixel-ctxb3gwtvml",
+        "@type": "@builder.io/sdk:Element",
+        "tagName": "img",
+        "properties": {
+          "src": "https://cdn.builder.io/api/v1/pixel?apiKey=f2f3655202764523914b8dbf61505ee8",
+          "aria-hidden": "true",
+          "alt": "",
+          "role": "presentation",
+          "width": "0",
+          "height": "0"
+        },
+        "responsiveStyles": {
+          "large": {
+            "height": "0",
+            "width": "0",
+            "display": "inline-block",
+            "opacity": "0",
+            "overflow": "hidden",
+            "pointerEvents": "none"
+          }
+        }
+      }
+    ]
+  }
+}

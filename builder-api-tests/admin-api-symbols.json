@@ -1,0 +1,388 @@
+{
+  "createdDate": 1754923685118,
+  "id": "f2f3655202764523914b8dbf61505ee8_1d5ac46b60f84a5fa35d8ce1e1bcdd78",
+  "name": "learn more",
+  "modelId": "f2f3655202764523914b8dbf61505ee8_a557a7e1ca5f4b4eba3c817a2f51329b",
+  "published": "published",
+  "meta": {},
+  "query": [],
+  "data": {
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "tagName": "section",
+        "id": "builder-770d55b7b15b400a882d9284bf6758c0",
+        "properties": {
+          "aria-labelledby": "h2_footer-learnmore"
+        },
+        "meta": {
+          "naturalWidth": 1132,
+          "previousId": "builder-me788eas0rbsj8yq1nq"
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "tagName": "h2",
+            "id": "builder-eb6cdcd3c92f454085f87d961ae31b9a",
+            "meta": {
+              "previousId": "builder-me788eb20ak2a1lle2q"
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "span",
+                "id": "builder-61f43bd47fc0459bb6b0b492d35a3215",
+                "meta": {
+                  "previousId": "builder-b3f90713e88847f6a6e011ac536565f5"
+                },
+                "component": {
+                  "name": "Text",
+                  "options": {
+                    "text": " Learn more about SIDEARM and available products "
+                  },
+                  "isRSC": null
+                }
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "fontFamily": "Archivo, arial, sans-serif",
+                "left": "-9999px",
+                "position": "absolute",
+                "top": "-9999px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "tagName": "div",
+            "id": "builder-3b45b632536d4beeb0e6c0fd79d14459",
+            "meta": {
+              "previousId": "builder-me788eb60hkmcb7ncxa6"
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "div",
+                "id": "builder-11afaa5823ee45e2b1e9e7f78943362f",
+                "meta": {
+                  "previousId": "builder-me788eba080tr743c4y8"
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "tagName": "div",
+                    "id": "builder-87a0eb3321994f32bd26e4b333f40fcf",
+                    "meta": {
+                      "previousId": "builder-me788ebd0ea3twqgd39l"
+                    },
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "tagName": "h3",
+                        "id": "builder-c8cb2428e6cc44c5939a521239fc75e1",
+                        "meta": {
+                          "previousId": "builder-me788ebf0imm00qzwxe"
+                        },
+                        "children": [
+                          {
+                            "@type": "@builder.io/sdk:Element",
+                            "@version": 2,
+                            "tagName": "span",
+                            "id": "builder-84d964e1ff444e15b02c8863a39688d3",
+                            "meta": {
+                              "previousId": "builder-b4f8ff3c855c486b8c63eb232e6d0cdc"
+                            },
+                            "component": {
+                              "name": "Text",
+                              "options": {
+                                "text": "Want to Learn More or Chat?"
+                              },
+                              "isRSC": null
+                            }
+                          }
+                        ],
+                        "responsiveStyles": {
+                          "large": {
+                            "color": "rgb(0, 48, 87)",
+                            "fontFamily": "Inter",
+                            "fontSize": "36px",
+                            "fontWeight": "900",
+                            "lineHeight": "45px",
+                            "marginBottom": "32px",
+                            "outlineColor": "rgb(0, 48, 87)",
+                            "textDecorationColor": "rgb(0, 48, 87)",
+                            "textEmphasisColor": "rgb(0, 48, 87)"
+                          },
+                          "medium": {
+                            "fontSize": "30px",
+                            "lineHeight": "37.5px"
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "tagName": "div",
+                        "id": "builder-86970501e3f245d587fca1fce37cc081",
+                        "meta": {
+                          "previousId": "builder-me788ebi0y2k6ihwrwx"
+                        },
+                        "children": [
+                          {
+                            "@type": "@builder.io/sdk:Element",
+                            "@version": 2,
+                            "tagName": "span",
+                            "id": "builder-ba71c6544bda453385334d21d5e03802",
+                            "meta": {
+                              "previousId": "builder-bb9d3e0670f945129bfd954eaf0d9152"
+                            },
+                            "component": {
+                              "name": "Text",
+                              "options": {
+                                "text": "We would love to hear from you. Get in touch with us to schedule a demo, ask a question or learn more!"
+                              },
+                              "isRSC": null
+                            }
+                          }
+                        ],
+                        "responsiveStyles": {
+                          "large": {
+                            "color": "rgb(102, 102, 102)",
+                            "fontFamily": "Roboto",
+                            "outlineColor": "rgb(102, 102, 102)",
+                            "textDecorationColor": "rgb(102, 102, 102)",
+                            "textEmphasisColor": "rgb(102, 102, 102)"
+                          }
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "color": "rgb(0, 48, 87)",
+                        "fontFamily": "Archivo, arial, sans-serif",
+                        "outlineColor": "rgb(0, 48, 87)",
+                        "paddingRight": "32px",
+                        "textDecorationColor": "rgb(0, 48, 87)",
+                        "textEmphasisColor": "rgb(0, 48, 87)"
+                      },
+                      "small": {
+                        "marginBottom": "48px",
+                        "paddingRight": "0px"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "tagName": "a",
+                    "id": "builder-ec270dfdfe8a46b99d449aecba2193ab",
+                    "linkUrl": "https://sidearmsports.com/contact",
+                    "meta": {
+                      "previousId": "builder-me788ebl0aywuhy8jx26"
+                    },
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "layerName": "SVG",
+                        "tagName": "div",
+                        "id": "builder-3b31ce309d92468e9f618c100c55fb3f",
+                        "properties": {
+                          "focusable": "false",
+                          "role": "img",
+                          "fill": "currentColor",
+                          "aria-hidden": "true"
+                        },
+                        "meta": {
+                          "previousId": "builder-me788ebo06fcrw41dxag"
+                        },
+                        "component": {
+                          "name": "Custom Code",
+                          "options": {
+                            "code": "<svg data-test-id=\"s-icon__root\" focusable=\"false\" role=\"img\" fill=\"currentColor\" class=\"s-icon s-icon-arrow-right mr-2 mt-[-2px]\" aria-hidden=\"true\" style=\"\n  color: rgb(255, 255, 255);\n  cursor: pointer;\n  display: inline-block;\n  fill: rgb(255, 255, 255);\n  font-family: Archivo, arial, sans-serif;\n  height: 16px;\n  margin-right: 8px;\n  margin-top: -2px;\n  outline-color: rgb(255, 255, 255);\n  overflow-clip-margin: content-box;\n  overflow-x: hidden;\n  overflow-y: hidden;\n  text-decoration-color: rgb(255, 255, 255);\n  text-emphasis-color: rgb(255, 255, 255);\n  vertical-align: middle;\n  width: 16px;\"><use xlink:href=\"/sidearm-icons.svg#icon-arrow-right\"></use></svg>"
+                          },
+                          "isRSC": null
+                        },
+                        "responsiveStyles": {
+                          "large": {
+                            "color": "rgb(255, 255, 255)",
+                            "cursor": "pointer",
+                            "display": "inline-block",
+                            "fill": "rgb(255, 255, 255)",
+                            "fontFamily": "Archivo, arial, sans-serif",
+                            "height": "16px",
+                            "marginRight": "8px",
+                            "marginTop": "-2px",
+                            "outlineColor": "rgb(255, 255, 255)",
+                            "overflowClipMargin": "content-box",
+                            "overflowX": "hidden",
+                            "overflowY": "hidden",
+                            "textDecorationColor": "rgb(255, 255, 255)",
+                            "textEmphasisColor": "rgb(255, 255, 255)",
+                            "verticalAlign": "middle",
+                            "width": "16px"
+                          }
+                        }
+                      },
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "tagName": "span",
+                        "id": "builder-1a7eec3a0cf94511a219fe6c0dbc089e",
+                        "meta": {
+                          "previousId": "builder-ee4e904baca344fe873972bfe81217cd"
+                        },
+                        "component": {
+                          "name": "Text",
+                          "options": {
+                            "text": "Connect With Us"
+                          },
+                          "isRSC": null
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "backgroundColor": "rgb(0, 48, 87)",
+                        "borderBottom": "2px solid rgb(0, 48, 87)",
+                        "borderBottomLeftRadius": "100px",
+                        "borderBottomRightRadius": "100px",
+                        "borderBottomWidth": "2px",
+                        "borderColor": "rgb(0, 48, 87)",
+                        "borderLeft": "2px solid rgb(0, 48, 87)",
+                        "borderLeftWidth": "2px",
+                        "borderRadius": "100px",
+                        "borderRight": "2px solid rgb(0, 48, 87)",
+                        "borderRightWidth": "2px",
+                        "borderTop": "2px solid rgb(0, 48, 87)",
+                        "borderTopLeftRadius": "100px",
+                        "borderTopRightRadius": "100px",
+                        "borderTopWidth": "2px",
+                        "borderWidth": "2px",
+                        "color": "rgb(255, 255, 255)",
+                        "cursor": "pointer",
+                        "flexShrink": "0",
+                        "fontFamily": "Archivo, arial, sans-serif",
+                        "marginLeft": "auto",
+                        "outlineColor": "rgb(255, 255, 255)",
+                        "paddingBottom": "18px",
+                        "paddingLeft": "32px",
+                        "paddingRight": "32px",
+                        "paddingTop": "18px",
+                        "textDecorationColor": "rgb(255, 255, 255)",
+                        "textEmphasisColor": "rgb(255, 255, 255)",
+                        "transitionDuration": "0.25s"
+                      },
+                      "small": {
+                        "paddingBottom": "8px",
+                        "paddingLeft": "20px",
+                        "paddingRight": "20px",
+                        "paddingTop": "8px",
+                        "marginLeft": "0px"
+                      }
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "large": {
+                    "alignItems": "center",
+                    "color": "rgb(0, 48, 87)",
+                    "display": "flex",
+                    "fontFamily": "Archivo, arial, sans-serif",
+                    "marginBottom": "auto",
+                    "marginLeft": "auto",
+                    "marginRight": "auto",
+                    "marginTop": "auto",
+                    "maxWidth": "1504px",
+                    "outlineColor": "rgb(0, 48, 87)",
+                    "paddingBottom": "200px",
+                    "paddingLeft": "32px",
+                    "paddingRight": "32px",
+                    "paddingTop": "200px",
+                    "textDecorationColor": "rgb(0, 48, 87)",
+                    "textEmphasisColor": "rgb(0, 48, 87)",
+                    "transitionDelay": "0.1s",
+                    "transitionDuration": "0.35s",
+                    "transitionProperty": "opacity, transform",
+                    "transform": "matrix(1, 0, 0, 1, 0, 0)"
+                  },
+                  "medium": {
+                    "paddingBottom": "100px",
+                    "paddingTop": "100px"
+                  },
+                  "small": {
+                    "alignItems": "flex-start",
+                    "flexDirection": "column",
+                    "flexFlow": "column nowrap",
+                    "paddingBottom": "60px",
+                    "paddingTop": "60px"
+                  }
+                }
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "backgroundColor": "rgb(249, 249, 249)",
+                "color": "rgb(0, 48, 87)",
+                "fontFamily": "Archivo, arial, sans-serif",
+                "outlineColor": "rgb(0, 48, 87)",
+                "textDecorationColor": "rgb(0, 48, 87)",
+                "textEmphasisColor": "rgb(0, 48, 87)"
+              }
+            }
+          }
+        ],
+        "responsiveStyles": {
+          "large": {
+            "fontFamily": "Archivo, arial, sans-serif",
+            "backgroundColor": "rgb(255, 255, 255)"
+          }
+        }
+      },
+      {
+        "id": "builder-pixel-ob9co8u10l",
+        "@type": "@builder.io/sdk:Element",
+        "tagName": "img",
+        "properties": {
+          "src": "https://cdn.builder.io/api/v1/pixel?apiKey=f2f3655202764523914b8dbf61505ee8",
+          "aria-hidden": "true",
+          "alt": "",
+          "role": "presentation",
+          "width": "0",
+          "height": "0"
+        },
+        "responsiveStyles": {
+          "large": {
+            "height": "0",
+            "width": "0",
+            "display": "inline-block",
+            "opacity": "0",
+            "overflow": "hidden",
+            "pointerEvents": "none"
+          }
+        }
+      }
+    ],
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    }
+  },
+  "variations": {},
+  "testRatio": 1,
+  "createdBy": "wlziUPmoIVVS4ZqPTkcwCfgNog03",
+  "lastUpdatedBy": "wlziUPmoIVVS4ZqPTkcwCfgNog03",
+  "folders": [],
+  "rev": "letk3ba7mke"
+}

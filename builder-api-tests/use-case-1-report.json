@@ -1,0 +1,673 @@
+{
+  "page": {
+    "id": "f2f3655202764523914b8dbf61505ee8_0ba7fd8e4c74453281352d4fafa1415e",
+    "name": "Test",
+    "url": "/test",
+    "published": "published"
+  },
+  "sections": [
+    {
+      "type": "@builder.io/sdk:Element",
+      "id": "builder-4f58f43a31b24b2387e43d220b463e15",
+      "path": "0",
+      "depth": 0,
+      "text": null,
+      "hasChildren": true,
+      "childrenCount": 2,
+      "properties": {},
+      "styles": {
+        "large": {
+          "display": "flex",
+          "flexDirection": "column",
+          "position": "relative",
+          "flexShrink": "0",
+          "boxSizing": "border-box",
+          "backgroundColor": "#d1eeec"
+        }
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "id": "builder-c9a7c0261bc84847a7f2fe8eeb8dc1f7",
+      "path": "0.0",
+      "depth": 1,
+      "tagName": "div",
+      "text": null,
+      "hasChildren": true,
+      "childrenCount": 2,
+      "properties": {},
+      "styles": {
+        "large": {
+          "paddingBottom": "102px",
+          "paddingLeft": "90px",
+          "paddingRight": "90px",
+          "paddingTop": "80px",
+          "textAlign": "center"
+        },
+        "medium": {
+          "paddingBottom": "65px",
+          "paddingTop": "71px",
+          "textAlign": "start"
+        },
+        "small": {
+          "paddingLeft": "24px",
+          "paddingRight": "24px"
+        }
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "id": "builder-35c1359293b24c8b8b6dcbed8a41801f",
+      "path": "0.0.0",
+      "depth": 2,
+      "tagName": "div",
+      "text": null,
+      "hasChildren": true,
+      "childrenCount": 3,
+      "properties": {},
+      "styles": {
+        "large": {
+          "fontFamily": "\"Archivo Medium\", sans-serif",
+          "fontSize": "54px",
+          "lineHeight": "60px",
+          "textAlign": "center"
+        },
+        "medium": {
+          "fontSize": "40px",
+          "lineHeight": "40px",
+          "textAlign": "start"
+        }
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "componentName": "Text",
+      "id": "builder-753010346a0b4ce886755b8985362acb",
+      "path": "0.0.0.0",
+      "depth": 3,
+      "tagName": "span",
+      "text": "Intuitive design, ",
+      "hasChildren": false,
+      "childrenCount": 0,
+      "properties": {
+        "text": "Intuitive design, "
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "id": "builder-982761e5cf5243a7b14a94f3105d0932",
+      "path": "0.0.0.1",
+      "depth": 3,
+      "tagName": "br",
+      "text": null,
+      "hasChildren": false,
+      "childrenCount": 0,
+      "properties": {},
+      "styles": {
+        "large": {
+          "display": "inline",
+          "fontFamily": "\"Archivo Medium\", sans-serif",
+          "fontSize": "54px",
+          "lineHeight": "60px",
+          "textAlign": "center"
+        },
+        "medium": {
+          "fontSize": "40px",
+          "lineHeight": "40px",
+          "textAlign": "start"
+        }
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "componentName": "Text",
+      "id": "builder-26f0e6b518d3439ca5f7a0356b93570d",
+      "path": "0.0.0.2",
+      "depth": 3,
+      "tagName": "span",
+      "text": "outcome-driven solutions",
+      "hasChildren": false,
+      "childrenCount": 0,
+      "properties": {
+        "text": "outcome-driven solutions"
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "id": "builder-0b294e8a18714743ace0971fb8159771",
+      "path": "0.0.1",
+      "depth": 2,
+      "tagName": "p",
+      "text": null,
+      "hasChildren": true,
+      "childrenCount": 1,
+      "properties": {},
+      "styles": {
+        "large": {
+          "fontFamily": "\"Simula Regular\", sans-serif",
+          "fontSize": "20px",
+          "lineHeight": "27px",
+          "marginBottom": "15px",
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "marginTop": "15px",
+          "textAlign": "center",
+          "width": "60%"
+        },
+        "medium": {
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "marginLeft": "0px",
+          "marginRight": "0px",
+          "textAlign": "start",
+          "width": "auto"
+        }
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "componentName": "Text",
+      "id": "builder-a9f388ea8e4c400ebcfd60d36da4d691",
+      "path": "0.0.1.0",
+      "depth": 3,
+      "tagName": "span",
+      "text": "Empowering borrowers with smart, intuitive tools to help lower monthly\n          payments and take control of their student loans.",
+      "hasChildren": false,
+      "childrenCount": 0,
+      "properties": {
+        "text": "Empowering borrowers with smart, intuitive tools to help lower monthly\n          payments and take control of their student loans."
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "id": "builder-20fdb89b0f244c238a6a163c0675d567",
+      "path": "0.1",
+      "depth": 1,
+      "tagName": "div",
+      "text": null,
+      "hasChildren": true,
+      "childrenCount": 3,
+      "properties": {},
+      "styles": {
+        "large": {
+          "display": "flex",
+          "justifyContent": "space-evenly"
+        },
+        "medium": {
+          "display": "none"
+        }
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "id": "builder-064484bac78049d6958a4b336f21ec67",
+      "path": "0.1.0",
+      "depth": 2,
+      "tagName": "span",
+      "text": null,
+      "hasChildren": true,
+      "childrenCount": 1,
+      "properties": {},
+      "styles": {
+        "medium": {
+          "display": "inline"
+        }
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "componentName": "Raw:Img",
+      "id": "builder-01492d0b4a8049d2aeb96b5aa384dd88",
+      "path": "0.1.0.0",
+      "depth": 3,
+      "text": null,
+      "hasChildren": false,
+      "childrenCount": 0,
+      "properties": {
+        "image": "https://array.com/_app/immutable/assets/personal-info.2c8b6b7b.avif"
+      },
+      "styles": {
+        "large": {
+          "display": "inline",
+          "overflowClipMargin": "content-box",
+          "overflowX": "clip",
+          "overflowY": "clip",
+          "width": "302px"
+        }
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "id": "builder-3b90e0d9eec845f9a429ca2cbe43b976",
+      "path": "0.1.1",
+      "depth": 2,
+      "tagName": "span",
+      "text": null,
+      "hasChildren": true,
+      "childrenCount": 1,
+      "properties": {},
+      "styles": {
+        "medium": {
+          "display": "inline"
+        }
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "componentName": "Raw:Img",
+      "id": "builder-966a8abfda9443aba6a939d99423921b",
+      "path": "0.1.1.0",
+      "depth": 3,
+      "text": null,
+      "hasChildren": false,
+      "childrenCount": 0,
+      "properties": {
+        "image": "https://array.com/_app/immutable/assets/assessment.5527dc16.avif"
+      },
+      "styles": {
+        "large": {
+          "display": "inline",
+          "overflowClipMargin": "content-box",
+          "overflowX": "clip",
+          "overflowY": "clip",
+          "width": "302px"
+        }
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "id": "builder-ab9d54041e9140349871a95f44e61a40",
+      "path": "0.1.2",
+      "depth": 2,
+      "tagName": "span",
+      "text": null,
+      "hasChildren": true,
+      "childrenCount": 1,
+      "properties": {},
+      "styles": {
+        "medium": {
+          "display": "inline"
+        }
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "componentName": "Raw:Img",
+      "id": "builder-85512e405ac14617a52961ff85cc9cf9",
+      "path": "0.1.2.0",
+      "depth": 3,
+      "text": null,
+      "hasChildren": false,
+      "childrenCount": 0,
+      "properties": {
+        "image": "https://array.com/_app/immutable/assets/plan.79e43eaa.avif"
+      },
+      "styles": {
+        "large": {
+          "display": "inline",
+          "overflowClipMargin": "content-box",
+          "overflowX": "clip",
+          "overflowY": "clip",
+          "width": "302px"
+        }
+      }
+    },
+    {
+      "type": "@builder.io/sdk:Element",
+      "id": "builder-pixel-iezdaquztwb",
+      "path": "1",
+      "depth": 0,
+      "tagName": "img",
+      "text": null,
+      "hasChildren": false,
+      "childrenCount": 0,
+      "properties": {},
+      "styles": {
+        "large": {
+          "height": "0",
+          "width": "0",
+          "display": "inline-block",
+          "opacity": "0",
+          "overflow": "hidden",
+          "pointerEvents": "none"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "totalSections": 16,
+    "uniqueTypes": 1,
+    "maxNestingDepth": 3,
+    "sectionsByType": {
+      "@builder.io/sdk:Element": [
+        {
+          "type": "@builder.io/sdk:Element",
+          "id": "builder-4f58f43a31b24b2387e43d220b463e15",
+          "path": "0",
+          "depth": 0,
+          "text": null,
+          "hasChildren": true,
+          "childrenCount": 2,
+          "properties": {},
+          "styles": {
+            "large": {
+              "display": "flex",
+              "flexDirection": "column",
+              "position": "relative",
+              "flexShrink": "0",
+              "boxSizing": "border-box",
+              "backgroundColor": "#d1eeec"
+            }
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "id": "builder-c9a7c0261bc84847a7f2fe8eeb8dc1f7",
+          "path": "0.0",
+          "depth": 1,
+          "tagName": "div",
+          "text": null,
+          "hasChildren": true,
+          "childrenCount": 2,
+          "properties": {},
+          "styles": {
+            "large": {
+              "paddingBottom": "102px",
+              "paddingLeft": "90px",
+              "paddingRight": "90px",
+              "paddingTop": "80px",
+              "textAlign": "center"
+            },
+            "medium": {
+              "paddingBottom": "65px",
+              "paddingTop": "71px",
+              "textAlign": "start"
+            },
+            "small": {
+              "paddingLeft": "24px",
+              "paddingRight": "24px"
+            }
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "id": "builder-35c1359293b24c8b8b6dcbed8a41801f",
+          "path": "0.0.0",
+          "depth": 2,
+          "tagName": "div",
+          "text": null,
+          "hasChildren": true,
+          "childrenCount": 3,
+          "properties": {},
+          "styles": {
+            "large": {
+              "fontFamily": "\"Archivo Medium\", sans-serif",
+              "fontSize": "54px",
+              "lineHeight": "60px",
+              "textAlign": "center"
+            },
+            "medium": {
+              "fontSize": "40px",
+              "lineHeight": "40px",
+              "textAlign": "start"
+            }
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "componentName": "Text",
+          "id": "builder-753010346a0b4ce886755b8985362acb",
+          "path": "0.0.0.0",
+          "depth": 3,
+          "tagName": "span",
+          "text": "Intuitive design, ",
+          "hasChildren": false,
+          "childrenCount": 0,
+          "properties": {
+            "text": "Intuitive design, "
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "id": "builder-982761e5cf5243a7b14a94f3105d0932",
+          "path": "0.0.0.1",
+          "depth": 3,
+          "tagName": "br",
+          "text": null,
+          "hasChildren": false,
+          "childrenCount": 0,
+          "properties": {},
+          "styles": {
+            "large": {
+              "display": "inline",
+              "fontFamily": "\"Archivo Medium\", sans-serif",
+              "fontSize": "54px",
+              "lineHeight": "60px",
+              "textAlign": "center"
+            },
+            "medium": {
+              "fontSize": "40px",
+              "lineHeight": "40px",
+              "textAlign": "start"
+            }
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "componentName": "Text",
+          "id": "builder-26f0e6b518d3439ca5f7a0356b93570d",
+          "path": "0.0.0.2",
+          "depth": 3,
+          "tagName": "span",
+          "text": "outcome-driven solutions",
+          "hasChildren": false,
+          "childrenCount": 0,
+          "properties": {
+            "text": "outcome-driven solutions"
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "id": "builder-0b294e8a18714743ace0971fb8159771",
+          "path": "0.0.1",
+          "depth": 2,
+          "tagName": "p",
+          "text": null,
+          "hasChildren": true,
+          "childrenCount": 1,
+          "properties": {},
+          "styles": {
+            "large": {
+              "fontFamily": "\"Simula Regular\", sans-serif",
+              "fontSize": "20px",
+              "lineHeight": "27px",
+              "marginBottom": "15px",
+              "marginLeft": "auto",
+              "marginRight": "auto",
+              "marginTop": "15px",
+              "textAlign": "center",
+              "width": "60%"
+            },
+            "medium": {
+              "marginBottom": "20px",
+              "marginTop": "20px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "textAlign": "start",
+              "width": "auto"
+            }
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "componentName": "Text",
+          "id": "builder-a9f388ea8e4c400ebcfd60d36da4d691",
+          "path": "0.0.1.0",
+          "depth": 3,
+          "tagName": "span",
+          "text": "Empowering borrowers with smart, intuitive tools to help lower monthly\n          payments and take control of their student loans.",
+          "hasChildren": false,
+          "childrenCount": 0,
+          "properties": {
+            "text": "Empowering borrowers with smart, intuitive tools to help lower monthly\n          payments and take control of their student loans."
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "id": "builder-20fdb89b0f244c238a6a163c0675d567",
+          "path": "0.1",
+          "depth": 1,
+          "tagName": "div",
+          "text": null,
+          "hasChildren": true,
+          "childrenCount": 3,
+          "properties": {},
+          "styles": {
+            "large": {
+              "display": "flex",
+              "justifyContent": "space-evenly"
+            },
+            "medium": {
+              "display": "none"
+            }
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "id": "builder-064484bac78049d6958a4b336f21ec67",
+          "path": "0.1.0",
+          "depth": 2,
+          "tagName": "span",
+          "text": null,
+          "hasChildren": true,
+          "childrenCount": 1,
+          "properties": {},
+          "styles": {
+            "medium": {
+              "display": "inline"
+            }
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "componentName": "Raw:Img",
+          "id": "builder-01492d0b4a8049d2aeb96b5aa384dd88",
+          "path": "0.1.0.0",
+          "depth": 3,
+          "text": null,
+          "hasChildren": false,
+          "childrenCount": 0,
+          "properties": {
+            "image": "https://array.com/_app/immutable/assets/personal-info.2c8b6b7b.avif"
+          },
+          "styles": {
+            "large": {
+              "display": "inline",
+              "overflowClipMargin": "content-box",
+              "overflowX": "clip",
+              "overflowY": "clip",
+              "width": "302px"
+            }
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "id": "builder-3b90e0d9eec845f9a429ca2cbe43b976",
+          "path": "0.1.1",
+          "depth": 2,
+          "tagName": "span",
+          "text": null,
+          "hasChildren": true,
+          "childrenCount": 1,
+          "properties": {},
+          "styles": {
+            "medium": {
+              "display": "inline"
+            }
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "componentName": "Raw:Img",
+          "id": "builder-966a8abfda9443aba6a939d99423921b",
+          "path": "0.1.1.0",
+          "depth": 3,
+          "text": null,
+          "hasChildren": false,
+          "childrenCount": 0,
+          "properties": {
+            "image": "https://array.com/_app/immutable/assets/assessment.5527dc16.avif"
+          },
+          "styles": {
+            "large": {
+              "display": "inline",
+              "overflowClipMargin": "content-box",
+              "overflowX": "clip",
+              "overflowY": "clip",
+              "width": "302px"
+            }
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "id": "builder-ab9d54041e9140349871a95f44e61a40",
+          "path": "0.1.2",
+          "depth": 2,
+          "tagName": "span",
+          "text": null,
+          "hasChildren": true,
+          "childrenCount": 1,
+          "properties": {},
+          "styles": {
+            "medium": {
+              "display": "inline"
+            }
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "componentName": "Raw:Img",
+          "id": "builder-85512e405ac14617a52961ff85cc9cf9",
+          "path": "0.1.2.0",
+          "depth": 3,
+          "text": null,
+          "hasChildren": false,
+          "childrenCount": 0,
+          "properties": {
+            "image": "https://array.com/_app/immutable/assets/plan.79e43eaa.avif"
+          },
+          "styles": {
+            "large": {
+              "display": "inline",
+              "overflowClipMargin": "content-box",
+              "overflowX": "clip",
+              "overflowY": "clip",
+              "width": "302px"
+            }
+          }
+        },
+        {
+          "type": "@builder.io/sdk:Element",
+          "id": "builder-pixel-iezdaquztwb",
+          "path": "1",
+          "depth": 0,
+          "tagName": "img",
+          "text": null,
+          "hasChildren": false,
+          "childrenCount": 0,
+          "properties": {},
+          "styles": {
+            "large": {
+              "height": "0",
+              "width": "0",
+              "display": "inline-block",
+              "opacity": "0",
+              "overflow": "hidden",
+              "pointerEvents": "none"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

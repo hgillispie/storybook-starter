@@ -1,0 +1,40 @@
+[
+  {
+    "type": "@builder.io/sdk:Element",
+    "count": 730,
+    "pages": [
+      "Test",
+      "Localization [en-US]",
+      "test",
+      "Localization [fr-FR]",
+      "Localization [de-DE]",
+      "Victoria",
+      "new cool page",
+      "sequoia",
+      "scheduling badge",
+      "RE Splash",
+      "New Product A/B",
+      "Variant container demo",
+      "Builder + Remix Demo Page",
+      "Global Page",
+      "Builder + Next.js Demo Page"
+    ],
+    "examples": [
+      {
+        "pageNam": "Test",
+        "pageUrl": "/test",
+        "sectionId": "builder-4f58f43a31b24b2387e43d220b463e15"
+      },
+      {
+        "pageNam": "Test",
+        "pageUrl": "/test",
+        "sectionId": "builder-c9a7c0261bc84847a7f2fe8eeb8dc1f7"
+      },
+      {
+        "pageNam": "Test",
+        "pageUrl": "/test",
+        "sectionId": "builder-35c1359293b24c8b8b6dcbed8a41801f"
+      }
+    ]
+  }
+]
